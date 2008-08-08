@@ -1,0 +1,36 @@
+validates_as_phone
+==================
+
+
+Strict validation module for phone numbers that supports classifications and
+areas.
+
+= General usage
+
+== Installation
+
+You can install the plugin the traditional way. Go to your application root
+and do:
+
+  script/plugin install git://github.com/kristinalim/validates_as_phone.git
+
+== Validate your model attributes
+
+Example:
+
+  class Person < ActiveRecord::Base
+    validates_as_phone :phone, :allow_blank => true, :set => true
+  end
+
+= License
+
+Written by Kristina Lim (http://i-think.com.ph/kristina/)
+
+Copyright (c) 2008 Syndeo Media
+http://syndeomedia.com
+
+= Contributing
+
+If you wish to contribute to the project, you may contact the author through:
+
+'kristinasyndeomediacom'.insert(8, '@').insert(20, '.')
