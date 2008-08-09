@@ -34,3 +34,11 @@ http://syndeomedia.com
 If you wish to contribute to the project, you may contact the author through:
 
 'kristinasyndeomediacom'.insert(8, '@').insert(20, '.')
+
+= Acknowledgements
+
+This plugin is named after the validates_as_phone plugin of Jerrod Blavos
+(http://code.google.com/p/validates-as-phone/). Admittedly, this plugin was
+built over the latter, but as the purposes of this plugin is more complex than
+that of the minimal one, practically all of the code has been written over by
+now.
